@@ -18,11 +18,40 @@ body{
     background-color: bisque;
     border-radius: 10px;
 }
+img{
+    width: 190px;
+    height: 190px;
+    border-radius: 10px;
+}
+@media (max-width: 1100px) {
+    .velika-kartica {
+        flex-direction:row;
+    }
+    .kartica{
+        margin: 10px;
+    }
+    body{
+        background-color: lightblue;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+    }
+}
 @media (max-width: 760px) {
     .velika-kartica {
         flex-direction: column;
     }
+    .kartica{
+        margin: 10px;
+    }
     body{
         background-color: lavender;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
     }
 }
