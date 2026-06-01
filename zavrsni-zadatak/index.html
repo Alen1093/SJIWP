@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>A Guide to Ark</title>
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="topnav">
+            <a href="#home" class="active">A Guide to ARK</a>
+            <div id="myLinks">
+                <a href="index.html">Naslovna</a>
+                <a href="basics.html">Osnove</a>
+                <a href="pripitomljavanje.html">Pripitomljavanje</a>
+                <a href="maps.html">Mape</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <main>
+        <img class="naslov" src="images/naslov.png">
+        <p>Dobro došli u vodič za početnike, a i napredne igrače u <b><u>ARK: Survival Evolved-u</u></b>.</p>
+        <p>U ovom vodiču ćemo proči kroz sve aspekte ARK-a, od samih osnova igre pa sve do nekih od najkompleksnijih elementa igre koji vam najvjerojatnije neće trebati osim ako nemate život.</p>
+        <h2>Osnovni podaci o igri:</h2>
+        <p><b><u></u>ARK: Survival Evolved</u></b> je <i>open-world survival</i> igra koju je razvio i objavio <i>Studio Wildcard</i> i naknadno odkupio <i>SnailGames USA</i>.</p>
+        <p>Temelj igre je preživljavanje na pustom tropskom otoku prepunog dinosaurima i ostalim prahistorijskim životinjama. Igra je namjenjena za igru s ostalim igračima no ima i mogućnost samostalnog igranaj.</p>
+        <p>Igra je dostupna na STeam-u, Play Station 4 i 5 te X-Box One, X i S konzolama za €14,99.</p>
+        <h1>Započni odabirom teme:</h1>
+        <div class="buttoncontainer">
+            <button onclick="document.location='basics.html'" class="gumb" id="basics">Osnove</button>
+            <button onclick="document.location='maps.html'" class="gumb" id="maps">Mape</button>
+            <button onclick="document.location='pripitomljavanje.html'" class="gumb" id="taming">Pripitomljavanje</button>
+        </div>
+        <div class="buttoncontainer">
+            <button onclick="document.location='breeding.html'" class="gumb" id="breeding">Breeding i mutacije</button>
+            <button onclick="document.location='caves.html'" class="gumb" id="caves">Špilje</button>
+            <button onclick="document.location='ascension.html'" class="gumb" id="ascension">Ascension</button>
+        </div>
+    </main>
+    <div class="footer">
+        <div class="footersub2">
+            <p class="footerp">Terms of use</p>
+            <p class="footerp">Support</p>
+            <p class="footerp">Contacts</p>
+            <p class="footerp">Privacy Policy</p>
+        <div class="footersub1">
+            <p>Copyright All Right Reserved 2026</p>
+            <p>Zagorska 23, 42220 Novi Marof</p>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
